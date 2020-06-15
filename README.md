@@ -11,17 +11,15 @@ Each step corresponds to a unique file which is then compared using `diff` with 
 This program takes 5 arguments. <br />
 arg 1: File to be compressed <br />
 arg 2: `.count` file. This file stores number of ASCII occurences <br />
-arg 3: `.tree` file. This file stores generated Huffman binary tree in preorder traversal<br />
-arg 4: `.code` file. This file stores generated Huffman code for each ASCII character
+arg 3: `.tree` file. This file stores generated Huffman binary tree in preorder traversal <br />
+arg 4: `.code` file. This file stores generated Huffman code for each ASCII character <br />
 arg 5: `.hbt` file. Desired name of compressed file
 <br />
 Example command line instructions. <br />
 `make pa2` <br />
 `./pa2 original/lorum lorum.count lorum.tree lorum.code lorum.hbt` <br />
 
-
-
 ### Makefile Instructions
-`make pa2` - Compiles the program <br />
+` make pa2 ` - Compiles the program <br />
 `make clean` - Removes all temporary files <br />
 `make testN` - N corresponds to testcase 1-6 <br />
