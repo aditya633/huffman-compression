@@ -15,9 +15,13 @@ arg 3: `.tree` file. This file stores generated Huffman binary tree in preorder 
 arg 4: `.code` file. This file stores generated Huffman code for each ASCII character
 arg 5: `.hbt` file. Desired name of compressed file
 <br />
-Example command line instructions: <br />
-`make pa2` <br />
+Example command line instructions. <br />
+`make pa5` <br />
 `./pa2 original/lorum lorum.count lorum.tree lorum.code lorum.hbt` <br />
+
+
+`./pa5 -q ./inputs/10.b 10_s.b` <br />
+
 
 ### Makefile Instructions
 `make pa2` - Compiles the program
